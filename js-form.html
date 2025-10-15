@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title> Задача 5 </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="form-section">
+                <div >
+                    <span> Calculator </span>
+                </div>
+                <form>
+                    <div><br>
+                        Количество: 
+		                <input type="text" name="quantity" >
+	                </div><br>
+                    <div><br>
+                        Продукт: 
+                        <select name="product">
+                            <option value="v1"> Апельсины </option>
+                            <option value="v2"> Бананы  </option>
+	                        <option value="v3"> Яблоко </option>
+                        </select>
+                    </div>
+                    <button id="button1" onclick="return click1();">OK</button>
+                    <div class="price-section"><br>
+                        <label>Цена:</label>
+                        <div id="result"></div>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </body>
+</html>
+ 
