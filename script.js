@@ -1,3 +1,16 @@
+const product_price = {
+  "v1":1000, 
+  "v2":1700, 
+  "v3":1200, 
+  "v4":800, 
+  "v5":600, 
+  "v6":300, 
+  "v7":750, 
+  "v8":2000, 
+  "v9":0, 
+  "v10":0, 
+  
+}
 function click1(event) {
   event.preventDefault();
   let f1 = document.getElementsByName("quantity");
@@ -5,17 +18,8 @@ function click1(event) {
   let r = document.getElementById("result");
   let quantity= f1[0].value;
   let product = f2[0].value;
-  let price =0;
 
-  if(product == "v1"){
-	price= quantity * 500;
-  }
-  else if(product == "v2"){
-	price= quantity * 200;
-  }
-  else{
-	price =quantity * 75;
-  }
+  let price = product_price[product] * quantity;
   
   r.innerHTML = price;
   let s = document.getElementsByName("select1");
