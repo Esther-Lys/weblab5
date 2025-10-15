@@ -1,34 +1,47 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title> Задача 5 </title>
+        <title> Saveurs Natuelles </title>
         <link rel="stylesheet" href="style.css">
         <script src="script.js" defer></script>
 
     </head>
     <body>
+        <header>
+            <img id="logo-container" src="logo.png" alt="logo" />
+            <div class="header-center">
+                <h1> Saveurs Naturelles  </h1>
+            </div>
+        </header>
         <div class="container">
             <div class="form-section">
-                <div >
-                    <span> Calculator </span>
+                <div ><br>
+                    <span> Calculatrice </span>
                 </div>
                 <form>
                     <div><br>
-                        Количество: 
+                        Quantité :
 		                <input type="text" name="quantity" >
 	                </div><br>
                     <div><br>
-                        Продукт: 
+                        Produit : 
                         <select name="product">
-                            <option value="v1"> Апельсины </option>
-                            <option value="v2"> Бананы  </option>
-	                        <option value="v3"> Яблоко </option>
+                            <option value="v1"> Banane </option>
+                            <option value="v2"> Papaye </option>
+	                        <option value="v3"> Avocat </option>
+                            <option value="v4"> Orange </option>
+                            <option value="v5"> Mangue </option>
+                            <option value="v6"> Citron </option>
+                            <option value="v7"> Barbadine </option>
+                            <option value="v8"> Corossole </option>
+                            <option value="v9"> Pomme </option>
+                            <option value="v10"> FIgue </option>
                         </select>
                     </div>
                     <button id="button1" onclick="return click1();">OK</button>
                     <div class="price-section"><br>
-                        <label>Цена:</label>
+                        <label> Prix </label>
                         <div id="result"></div>
                     </div>
                 </form>
