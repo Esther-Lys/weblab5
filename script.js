@@ -1,14 +1,14 @@
 const product_price = {
-  "v1":1000, 
-  "v2":1700, 
-  "v3":1200, 
-  "v4":800, 
-  "v5":600, 
-  "v6":300, 
-  "v7":750, 
-  "v8":2000, 
-  "v9":0, 
-  "v10":0, 
+  "v1":1500, 
+  "v2":1000, 
+  "v3":800, 
+  "v4":300, 
+  "v5":2500, 
+  "v6":1200, 
+  "v7":1000, 
+  "v8":1300, 
+  "v9":2000, 
+  "v10":1800, 
   
 }
 function click1(event) {
@@ -32,3 +32,4 @@ window.addEventListener('DOMContentLoaded', function (event) {
   let b = document.getElementById("button1");
   b.addEventListener("click", click1);
 });
+
